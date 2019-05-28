@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/pasosdeJesus/sal7711_gen.git
-  revision: 004a3fcd8727d588cc47f884f24ee52a2366049b
+  revision: 10cefd0bb4a27e26935c84c7aea205e5043248e3
+  branch: rails5
   specs:
     sal7711_gen (1.0.b1)
       rails
@@ -8,7 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/pasosdeJesus/sip.git
-  revision: 4837f12c9c20c7e2e0076b237af53df8e19f1713
+  revision: 39a54cb26fec91b6e4f130f4921ea332c3306d63
+  branch: rails5
   specs:
     sip (2.0.b5)
       bootstrap-datepicker-rails
@@ -136,7 +138,7 @@ GEM
     docile (1.3.1)
     erubi (1.8.0)
     execjs (2.7.0)
-    ffi (1.10.0)
+    ffi (1.11.1)
     font-awesome-rails (4.7.0.5)
       railties (>= 3.2, < 6.1)
     globalid (0.4.2)
@@ -230,7 +232,7 @@ GEM
     pry-stack_explorer (0.4.9.3)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
-    public_suffix (3.0.3)
+    public_suffix (3.1.0)
     puma (3.12.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -279,8 +281,8 @@ GEM
     responders (2.4.1)
       actionpack (>= 4.2.0, < 6.0)
       railties (>= 4.2.0, < 6.0)
-    ruby-progressbar (1.10.0)
-    rubyzip (1.2.2)
+    ruby-progressbar (1.10.1)
+    rubyzip (1.2.3)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -292,7 +294,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
-    selenium-webdriver (3.142.2)
+    selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
     simple_form (4.1.0)
@@ -384,7 +386,7 @@ DEPENDENCIES
   pry-rescue
   pry-stack_explorer
   puma
-  rails (~> 5.2.1)
+  rails (~> 5.2.3)
   rails-controller-testing
   rails-i18n
   rails_12factor
