@@ -55,11 +55,12 @@ gem 'sass-rails' # Para generar CSS
 
 gem 'simple_form' # Formularios simples 
 # Motor Archivo de prensa
-gem 'sal7711_gen', git: 'https://github.com/pasosdeJesus/sal7711_gen.git'
+gem 'sal7711_gen', 
+  git: 'https://github.com/pasosdeJesus/sal7711_gen.git', branch: :sinbs4
 #gem 'sal7711_gen', path: '../sal7711_gen'
 
 # Motor de sistemas de información estilo Pasos de Jesús
-gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git'
+gem 'sip', git: 'https://github.com/pasosdeJesus/sip.git', branch: 'r2.0b6'
 #gem 'sip', path: '../sip'
 
 gem 'tiny-color-rails'
